@@ -16,6 +16,7 @@
         android:layout_gravity="center"
         android:textSize="40sp"
         android:text="김지연 시뮬레이터"
+        android:onClick="onClick"
        />
 
     <Button
