@@ -4,13 +4,16 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     public final static String TAG ="김지연:Main";
+    private ImageView m_ImageViewFriendVisual;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        m_ImageViewFriendVisual=(ImageView) findViewById(R.id.friend_visual);
         super.onCreate(savedInstanceState);
         Log.d(TAG, "onCreate 메소드 호출");
         setContentView(R.layout.activity_main);
