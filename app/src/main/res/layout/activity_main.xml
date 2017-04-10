@@ -40,7 +40,8 @@
         android:layout_height="wrap_content"
         android:text="밤에"
         android:id="@+id/button3"
-        android:layout_margin="3dp" />
+        android:layout_margin="3dp"
+        android:onClick="onClick"/>
 
     <Button
         android:layout_width="match_parent"
